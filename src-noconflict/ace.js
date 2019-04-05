@@ -18022,7 +18022,7 @@ var VirtualRenderer = function(container, theme) {
             containerEl.className = "ace_layer ace_print-margin-layer";
             this.$printMarginEl = dom.createElement("div");
             this.$printMarginEl.className = "ace_print-margin";
-            containerEl.appendChild(this.$printMarginEl);
+            //containerEl.appendChild(this.$printMarginEl);
             this.content.insertBefore(containerEl, this.content.firstChild);
         }
 
